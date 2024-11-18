@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>required</h1>
+    <form action="">
+        First Name: <input type="text" name="fname" required><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        City: <input type="text" name="city"><br><br>
+        <input type="submit" value="save">
+        
+    </form>
+    <br><br><br><hr>
+    
+    
+    <h1>novalidate</h1>
+    <form action="" novalidate>
+        First Name: <input type="text" name="fname" ><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        City: <input type="text" name="city"><br><br>
+        <input type="submit" value="save">
+        
+    </form>
+    <br><br><br><hr>
+
+    <h1>validate</h1>
+    <form action="">
+        First Name: <input type="text" name="fname" ><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        City: <input type="text" name="city"><br><br>
+        <input type="submit" value="save">
+    </form>
+    <br><br><br><hr>
+
+    <h1>fromvalidate</h1>
+    <form action="">
+        First Name: <input type="text" name="fname" required><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        City: <input type="text" name="city"><br><br>
+        <input type="submit" value="save" formnovalidate>
+        
+    </form>
+    <br><br><br><hr>
+
+    <h1>fromaction</h1>
+    <form action="table2.html">
+        First Name: <input type="text" name="fname" required><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        City: <input type="text" name="city"><br><br>
+        <input type="submit">
+        <input type="submit" value="submit2" formaction="table1.html">
+        
+    </form>
+    <br><br><br><hr>
+</body>
+</html>
